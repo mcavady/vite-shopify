@@ -1,7 +1,7 @@
 <template>
-  <h1>{{ msg }}</h1>
+  <h1 class="text-center">{{ msg }}</h1>
 
-  <p>
+  <p class="text-center">
     <a href="https://vitejs.dev/guide/features.html" target="_blank">
       Vite Documentation
     </a>
@@ -10,12 +10,12 @@
   </p>
 
   <button type="button" @click="state.count++">count is: {{ state.count }}</button>
-  <p>
+  <p class="text-center">
     Edit
     <code>components/HelloWorld.vue</code> to test hot module replacement.
   </p>
 
-  <p>Using vue to do this</p>
+  <p class="text-center">Using vue to do this</p>
 
 </template>
 
